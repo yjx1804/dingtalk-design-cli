@@ -2,35 +2,6 @@
 # yarn lockfile v1
 
 
-"@ali/minidev-rc@^1.2.11-game.2":
-  version "1.2.11-game.2"
-  resolved "https://registry.npm.alibaba-inc.com/@ali/minidev-rc/download/@ali/minidev-rc-1.2.11-game.2.tgz#d22abc19601a4eb914142058cb865baf4ffdf8e6"
-  integrity sha512-BWu5nEiVRNG+6IR4LLBuHp7hazDFXOgQFcLbgj3AnTQ6y/BzbZ0NiDKYiQ7Jgb7Px4S2w2JbHjdQunVU+3O0gw==
-  dependencies:
-    archiver "^5.3.0"
-    bent "^7.3.1"
-    bufferutil "^4.0.1"
-    chalk "^4.1.2"
-    chokidar "^3.4.0"
-    commander "^8.1.0"
-    compressing "^1.5.1"
-    download "^8.0.0"
-    execa "^5.1.1"
-    express "^4.0.0"
-    fs-extra "^10.0.0"
-    lodash "^4.17.21"
-    qrcode-reader "1.0.4"
-    reflect-metadata "^0.1.13"
-    request "^2.88.2"
-    request-promise-native "^1.0.9"
-    superagent "^6.1.0"
-    superagent-proxy "^3.0.0"
-    tar "^6.1.11"
-    utf-8-validate "^5.0.2"
-    watchpack "^2.2.0"
-    winston "^3.3.3"
-    ws "^8.2.3"
-
 "@babel/cli@^7.12.10":
   version "7.13.0"
   resolved "https://registry.npmjs.org/@babel/cli/-/cli-7.13.0.tgz#48e77614e897615ca299bece587b68a70723ff4c"
@@ -4938,17 +4909,17 @@ cacheable-request@^2.1.1:
     normalize-url "2.0.1"
     responselike "1.0.2"
 
-cacheable-request@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.1.tgz#062031c2856232782ed694a257fa35da93942a58"
-  integrity sha512-lt0mJ6YAnsrBErpTMWeu5kl/tg9xMAWjavYTN6VQXM1A/teBITuNcccXsCxF0tDQQJf9DfAaX5O4e0zp0KlfZw==
+cacheable-request@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.2.tgz#ea0d0b889364a25854757301ca12b2da77f91d27"
+  integrity sha512-pouW8/FmiPQbuGpkXQ9BAPv/Mo5xDGANgSNXzTzJ8DrKGuXOssM4wIQRjfanNRh3Yu5cfYPvcorqbhg2KIJtew==
   dependencies:
     clone-response "^1.0.2"
     get-stream "^5.1.0"
     http-cache-semantics "^4.0.0"
     keyv "^4.0.0"
     lowercase-keys "^2.0.0"
-    normalize-url "^4.1.0"
+    normalize-url "^6.0.1"
     responselike "^2.0.0"
 
 cachedir@2.2.0:
@@ -7086,7 +7057,7 @@ expect@^26.6.2:
     jest-message-util "^26.6.2"
     jest-regex-util "^26.0.0"
 
-express@^4.0.0, express@^4.17.3, express@^4.8.5:
+express@^4.0.0, express@^4.8.5:
   version "4.17.3"
   resolved "https://registry.npm.alibaba-inc.com/express/download/express-4.17.3.tgz#f6c7302194a4fb54271b73a1fe7a06478c8f85a1"
   integrity sha512-yuSQpz5I+Ch7gFrPCk4/c+dIBKlQUxtgwqzph132bsT6qhuzss6I8cLJQz7B3rFblzd6wtcI0ZbGltH/C4LjUg==
@@ -8135,16 +8106,16 @@ globby@^9.2.0:
     slash "^2.0.0"
 
 got@^11.8.2:
-  version "11.8.2"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.8.2.tgz#7abb3959ea28c31f3576f1576c1effce23f33599"
-  integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
+  version "11.8.5"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#ce77d045136de56e8f024bebb82ea349bc730046"
+  integrity sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
     "@types/cacheable-request" "^6.0.1"
     "@types/responselike" "^1.0.0"
     cacheable-lookup "^5.0.3"
-    cacheable-request "^7.0.1"
+    cacheable-request "^7.0.2"
     decompress-response "^6.0.0"
     http2-wrapper "^1.0.0-beta.5.2"
     lowercase-keys "^2.0.0"
@@ -10695,10 +10666,10 @@ minicode-compile-bundled@2.11.26:
   resolved "https://registry.yarnpkg.com/minicode-compile-bundled/-/minicode-compile-bundled-2.11.26.tgz#f05a15f42c25226b7464b5ade4755d0ece0a7a6a"
   integrity sha512-kiV08PMB7mNvhDlOHfJri/QFYfUv5auke8oJOlt89E0ZgF5mzffc3dMgu+JqCVi/VCNxrSSI5M7f6X3w2FlGNQ==
 
-minidev@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.npm.alibaba-inc.com/minidev/download/minidev-1.2.7.tgz#9abc89a8b47f400a709d21c7fd3620d08dc238a1"
-  integrity sha512-NbSu33ThUXIlaptDtv18U4ww7wIKOWmUyUo2td9VZJxNnpb95QfOGOwAG6Yl4Bqr87VCD2Ty93zA2B5DvgPq0w==
+minidev@^1.2.10:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/minidev/-/minidev-1.4.2.tgz#35e9b8999aa0f1f96eabf328d2a605edf9c4c39a"
+  integrity sha512-omL+Ry26lic5VBmqqpsB76CRAAgvtV9qtHs0kcAWv5IiVPPC0N2CseUY/l1HNHrS8J9haoEO+hQCspZ/STc9sA==
   dependencies:
     archiver "^5.3.0"
     bent "^7.3.1"
@@ -10719,7 +10690,6 @@ minidev@^1.2.7:
     superagent "^6.1.0"
     superagent-proxy "^3.0.0"
     tar "^6.1.11"
-    utf-8-validate "^5.0.2"
     watchpack "^2.2.0"
     winston "^3.3.3"
     ws "^8.2.3"
@@ -11183,10 +11153,10 @@ normalize-url@^3.3.0:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-normalize-url@^4.1.0:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
-  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
+normalize-url@^6.0.1:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
+  integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
 npm-api@^1.0.0:
   version "1.0.1"
@@ -14686,13 +14656,6 @@ username@^5.1.0:
   dependencies:
     execa "^1.0.0"
     mem "^4.3.0"
-
-utf-8-validate@^5.0.2:
-  version "5.0.9"
-  resolved "https://registry.npm.alibaba-inc.com/utf-8-validate/download/utf-8-validate-5.0.9.tgz#ba16a822fbeedff1a58918f2a6a6b36387493ea3"
-  integrity sha512-Yek7dAy0v3Kl0orwMlvi7TPtiCNrdfHNd7Gcc/pLq4BLXqfAmd0J7OWMizUQnTTJsyjKn02mU7anqwfmUP4J8Q==
-  dependencies:
-    node-gyp-build "^4.3.0"
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
