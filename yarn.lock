@@ -2,35 +2,6 @@
 # yarn lockfile v1
 
 
-"@ali/minidev-rc@^1.2.11-game.2":
-  version "1.2.11-game.2"
-  resolved "https://registry.npm.alibaba-inc.com/@ali/minidev-rc/download/@ali/minidev-rc-1.2.11-game.2.tgz#d22abc19601a4eb914142058cb865baf4ffdf8e6"
-  integrity sha512-BWu5nEiVRNG+6IR4LLBuHp7hazDFXOgQFcLbgj3AnTQ6y/BzbZ0NiDKYiQ7Jgb7Px4S2w2JbHjdQunVU+3O0gw==
-  dependencies:
-    archiver "^5.3.0"
-    bent "^7.3.1"
-    bufferutil "^4.0.1"
-    chalk "^4.1.2"
-    chokidar "^3.4.0"
-    commander "^8.1.0"
-    compressing "^1.5.1"
-    download "^8.0.0"
-    execa "^5.1.1"
-    express "^4.0.0"
-    fs-extra "^10.0.0"
-    lodash "^4.17.21"
-    qrcode-reader "1.0.4"
-    reflect-metadata "^0.1.13"
-    request "^2.88.2"
-    request-promise-native "^1.0.9"
-    superagent "^6.1.0"
-    superagent-proxy "^3.0.0"
-    tar "^6.1.11"
-    utf-8-validate "^5.0.2"
-    watchpack "^2.2.0"
-    winston "^3.3.3"
-    ws "^8.2.3"
-
 "@babel/cli@^7.12.10":
   version "7.13.0"
   resolved "https://registry.npmjs.org/@babel/cli/-/cli-7.13.0.tgz#48e77614e897615ca299bece587b68a70723ff4c"
@@ -3696,8 +3667,8 @@ acorn-walk@^7.1.1:
 
 acorn-walk@^8.2.0:
   version "8.2.0"
-  resolved "https://registry.npm.alibaba-inc.com/acorn-walk/download/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
-  integrity sha1-dBIQ8uJCZFRQiFOi9E0KuDt/acE=
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
+  integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
 
 acorn@^3.1.0:
   version "3.3.0"
@@ -3715,9 +3686,9 @@ acorn@^7.1.1, acorn@^7.4.0:
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
 acorn@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.npm.alibaba-inc.com/acorn/download/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
-  integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
+  integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
 
 address@>=0.0.1, address@^1.0.0, address@^1.0.1:
   version "1.1.2"
@@ -7086,7 +7057,7 @@ expect@^26.6.2:
     jest-message-util "^26.6.2"
     jest-regex-util "^26.0.0"
 
-express@^4.0.0, express@^4.17.3, express@^4.8.5:
+express@^4.0.0, express@^4.8.5:
   version "4.17.3"
   resolved "https://registry.npm.alibaba-inc.com/express/download/express-4.17.3.tgz#f6c7302194a4fb54271b73a1fe7a06478c8f85a1"
   integrity sha512-yuSQpz5I+Ch7gFrPCk4/c+dIBKlQUxtgwqzph132bsT6qhuzss6I8cLJQz7B3rFblzd6wtcI0ZbGltH/C4LjUg==
@@ -7685,6 +7656,15 @@ fs-extra@^10.0.0:
   version "10.0.0"
   resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
   integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -10695,10 +10675,10 @@ minicode-compile-bundled@2.11.26:
   resolved "https://registry.yarnpkg.com/minicode-compile-bundled/-/minicode-compile-bundled-2.11.26.tgz#f05a15f42c25226b7464b5ade4755d0ece0a7a6a"
   integrity sha512-kiV08PMB7mNvhDlOHfJri/QFYfUv5auke8oJOlt89E0ZgF5mzffc3dMgu+JqCVi/VCNxrSSI5M7f6X3w2FlGNQ==
 
-minidev@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.npm.alibaba-inc.com/minidev/download/minidev-1.2.7.tgz#9abc89a8b47f400a709d21c7fd3620d08dc238a1"
-  integrity sha512-NbSu33ThUXIlaptDtv18U4ww7wIKOWmUyUo2td9VZJxNnpb95QfOGOwAG6Yl4Bqr87VCD2Ty93zA2B5DvgPq0w==
+minidev@^1.2.10:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/minidev/-/minidev-1.5.1.tgz#b6da3ec398e2ff2bffb5af67fc72432fbe517f58"
+  integrity sha512-rDbip6PVR2v2bkGMo0OLxKTmLcHlCSZ+EwzXxV6xXV8VuzYKO0ZQgHv4AN9xOA6HU3QTPBKtsMAb6D6M7nzIWw==
   dependencies:
     archiver "^5.3.0"
     bent "^7.3.1"
@@ -10710,7 +10690,7 @@ minidev@^1.2.7:
     download "^8.0.0"
     execa "^5.1.1"
     express "^4.0.0"
-    fs-extra "^10.0.0"
+    fs-extra "^10.1.0"
     lodash "^4.17.21"
     qrcode-reader "1.0.4"
     reflect-metadata "^0.1.13"
@@ -10719,10 +10699,9 @@ minidev@^1.2.7:
     superagent "^6.1.0"
     superagent-proxy "^3.0.0"
     tar "^6.1.11"
-    utf-8-validate "^5.0.2"
     watchpack "^2.2.0"
     winston "^3.3.3"
-    ws "^8.2.3"
+    ws "^8.6.0"
 
 minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
@@ -14687,13 +14666,6 @@ username@^5.1.0:
     execa "^1.0.0"
     mem "^4.3.0"
 
-utf-8-validate@^5.0.2:
-  version "5.0.9"
-  resolved "https://registry.npm.alibaba-inc.com/utf-8-validate/download/utf-8-validate-5.0.9.tgz#ba16a822fbeedff1a58918f2a6a6b36387493ea3"
-  integrity sha512-Yek7dAy0v3Kl0orwMlvi7TPtiCNrdfHNd7Gcc/pLq4BLXqfAmd0J7OWMizUQnTTJsyjKn02mU7anqwfmUP4J8Q==
-  dependencies:
-    node-gyp-build "^4.3.0"
-
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -14813,9 +14785,9 @@ vinyl@^2.0.1, vinyl@^2.2.0, vinyl@^2.2.1:
     replace-ext "^1.0.0"
 
 vm2@^3.9.8:
-  version "3.9.9"
-  resolved "https://registry.npm.alibaba-inc.com/vm2/download/vm2-3.9.9.tgz#c0507bc5fbb99388fad837d228badaaeb499ddc5"
-  integrity sha512-xwTm7NLh/uOjARRBs8/95H0e8fT3Ukw5D/JJWhxMbhKzNh1Nu981jQKvkep9iKYNxzlVrdzD0mlBGkDKZWprlw==
+  version "3.9.11"
+  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.11.tgz#a880f510a606481719ec3f9803b940c5805a06fe"
+  integrity sha512-PFG8iJRSjvvBdisowQ7iVF580DXb1uCIiGaXgm7tynMR1uTBlv7UJlB1zdv5KJ+Tmq1f0Upnj3fayoEOPpCBKg==
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
@@ -15137,10 +15109,10 @@ ws@^7.2.3:
   resolved "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
-ws@^8.2.3:
-  version "8.5.0"
-  resolved "https://registry.npm.alibaba-inc.com/ws/download/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
-  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
+ws@^8.6.0:
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.9.0.tgz#2a994bb67144be1b53fe2d23c53c028adeb7f45e"
+  integrity sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
