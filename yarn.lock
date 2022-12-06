@@ -2,35 +2,6 @@
 # yarn lockfile v1
 
 
-"@ali/minidev-rc@^1.2.11-game.2":
-  version "1.2.11-game.2"
-  resolved "https://registry.npm.alibaba-inc.com/@ali/minidev-rc/download/@ali/minidev-rc-1.2.11-game.2.tgz#d22abc19601a4eb914142058cb865baf4ffdf8e6"
-  integrity sha512-BWu5nEiVRNG+6IR4LLBuHp7hazDFXOgQFcLbgj3AnTQ6y/BzbZ0NiDKYiQ7Jgb7Px4S2w2JbHjdQunVU+3O0gw==
-  dependencies:
-    archiver "^5.3.0"
-    bent "^7.3.1"
-    bufferutil "^4.0.1"
-    chalk "^4.1.2"
-    chokidar "^3.4.0"
-    commander "^8.1.0"
-    compressing "^1.5.1"
-    download "^8.0.0"
-    execa "^5.1.1"
-    express "^4.0.0"
-    fs-extra "^10.0.0"
-    lodash "^4.17.21"
-    qrcode-reader "1.0.4"
-    reflect-metadata "^0.1.13"
-    request "^2.88.2"
-    request-promise-native "^1.0.9"
-    superagent "^6.1.0"
-    superagent-proxy "^3.0.0"
-    tar "^6.1.11"
-    utf-8-validate "^5.0.2"
-    watchpack "^2.2.0"
-    winston "^3.3.3"
-    ws "^8.2.3"
-
 "@babel/cli@^7.12.10":
   version "7.13.0"
   resolved "https://registry.npmjs.org/@babel/cli/-/cli-7.13.0.tgz#48e77614e897615ca299bece587b68a70723ff4c"
@@ -7086,7 +7057,7 @@ expect@^26.6.2:
     jest-message-util "^26.6.2"
     jest-regex-util "^26.0.0"
 
-express@^4.0.0, express@^4.17.3, express@^4.8.5:
+express@^4.0.0, express@^4.8.5:
   version "4.17.3"
   resolved "https://registry.npm.alibaba-inc.com/express/download/express-4.17.3.tgz#f6c7302194a4fb54271b73a1fe7a06478c8f85a1"
   integrity sha512-yuSQpz5I+Ch7gFrPCk4/c+dIBKlQUxtgwqzph132bsT6qhuzss6I8cLJQz7B3rFblzd6wtcI0ZbGltH/C4LjUg==
@@ -10695,10 +10666,10 @@ minicode-compile-bundled@2.11.26:
   resolved "https://registry.yarnpkg.com/minicode-compile-bundled/-/minicode-compile-bundled-2.11.26.tgz#f05a15f42c25226b7464b5ade4755d0ece0a7a6a"
   integrity sha512-kiV08PMB7mNvhDlOHfJri/QFYfUv5auke8oJOlt89E0ZgF5mzffc3dMgu+JqCVi/VCNxrSSI5M7f6X3w2FlGNQ==
 
-minidev@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.npm.alibaba-inc.com/minidev/download/minidev-1.2.7.tgz#9abc89a8b47f400a709d21c7fd3620d08dc238a1"
-  integrity sha512-NbSu33ThUXIlaptDtv18U4ww7wIKOWmUyUo2td9VZJxNnpb95QfOGOwAG6Yl4Bqr87VCD2Ty93zA2B5DvgPq0w==
+minidev@^1.2.10:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/minidev/-/minidev-1.6.3.tgz#1aa812469a00dcd00a656c74abef2617c43965fe"
+  integrity sha512-S5g1+Evrv10/FQUtxNkZqMj1ngruPA3aHNENokFrpbUAaqerTN/ZV7ZQm/uAWzRSvAgttuVmU7CGfzZcnNDzDg==
   dependencies:
     archiver "^5.3.0"
     bent "^7.3.1"
@@ -10712,17 +10683,15 @@ minidev@^1.2.7:
     express "^4.0.0"
     fs-extra "^10.0.0"
     lodash "^4.17.21"
-    qrcode-reader "1.0.4"
     reflect-metadata "^0.1.13"
     request "^2.88.2"
     request-promise-native "^1.0.9"
     superagent "^6.1.0"
     superagent-proxy "^3.0.0"
     tar "^6.1.11"
-    utf-8-validate "^5.0.2"
     watchpack "^2.2.0"
     winston "^3.3.3"
-    ws "^8.2.3"
+    ws "^8.6.0"
 
 minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
@@ -12363,11 +12332,6 @@ qrcode-npm@0.0.3:
   resolved "https://registry.npm.alibaba-inc.com/qrcode-npm/download/qrcode-npm-0.0.3.tgz#77ee6fbefa9c0f29fa09d4d1520807c6a6042b9a"
   integrity sha1-d+5vvvqcDyn6CdTRUggHxqYEK5o=
 
-qrcode-reader@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npm.alibaba-inc.com/qrcode-reader/download/qrcode-reader-1.0.4.tgz#95d9bb9e8130800361a96cb5a43124ad1d9e06b8"
-  integrity sha1-ldm7noEwgANhqWy1pDEkrR2eBrg=
-
 qrcode@^1.4.4:
   version "1.4.4"
   resolved "https://registry.npmjs.org/qrcode/-/qrcode-1.4.4.tgz#f0c43568a7e7510a55efc3b88d9602f71963ea83"
@@ -12386,17 +12350,12 @@ qs@6.9.7:
   resolved "https://registry.npm.alibaba-inc.com/qs/download/qs-6.9.7.tgz#4610846871485e1e048f44ae3b94033f0e675afe"
   integrity sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==
 
-qs@^6.4.0:
-  version "6.10.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
-  integrity sha512-M528Hph6wsSVOBiYUnGf+K/7w0hNshs/duGsNXPUCLH5XAqjEtiPGwNONLV0tBH8NoGb0mvD5JubnUTrujKDTg==
+qs@^6.4.0, qs@^6.9.4:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.3.tgz#d6cde1b2ffca87b5aa57889816c5f81535e22e8e"
+  integrity sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ==
   dependencies:
     side-channel "^1.0.4"
-
-qs@^6.9.4:
-  version "6.9.6"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
-  integrity sha512-TIRk4aqYLNoJUbd+g2lEdz5kLWIuTMRagAXxl78Q0RiVjAOugHmeKNGdd3cwo/ktpf9aL9epCfFqWDEKysUlLQ==
 
 qs@~6.5.2:
   version "6.5.2"
@@ -14687,13 +14646,6 @@ username@^5.1.0:
     execa "^1.0.0"
     mem "^4.3.0"
 
-utf-8-validate@^5.0.2:
-  version "5.0.9"
-  resolved "https://registry.npm.alibaba-inc.com/utf-8-validate/download/utf-8-validate-5.0.9.tgz#ba16a822fbeedff1a58918f2a6a6b36387493ea3"
-  integrity sha512-Yek7dAy0v3Kl0orwMlvi7TPtiCNrdfHNd7Gcc/pLq4BLXqfAmd0J7OWMizUQnTTJsyjKn02mU7anqwfmUP4J8Q==
-  dependencies:
-    node-gyp-build "^4.3.0"
-
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -15137,10 +15089,10 @@ ws@^7.2.3:
   resolved "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
-ws@^8.2.3:
-  version "8.5.0"
-  resolved "https://registry.npm.alibaba-inc.com/ws/download/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
-  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
+ws@^8.6.0:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
+  integrity sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
